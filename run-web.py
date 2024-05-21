@@ -15,7 +15,7 @@ if len(sys.argv) > 1:
 
 command = [
     'pygbag',
-    '--app_name', 'youre_the_os',
+    '--app_name', 'youre_the_os_online',
     '--ume_block', '0',
     '--title', "You're the OS!",
 ]

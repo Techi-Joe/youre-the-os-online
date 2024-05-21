@@ -1,4 +1,4 @@
-# You're the OS!
+# You're the OS online!
 
 This is a game where you are the operating system of a computer.
 As such, you have to manage processes, memory and I/O events.
