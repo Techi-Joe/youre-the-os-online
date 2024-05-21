@@ -42,7 +42,7 @@ class MainMenu(Scene):
             difficulty_selection_label.view.y + difficulty_selection_label.view.height + 20)
         self._scene_objects.append(self._difficulty_selector)
 
-        play_button = Button('Play', self._on_start_button_click)
+        play_button = Button('Singleplayer', self._on_start_button_click)
         play_button.view.set_xy(
             (self.screen.get_width() - play_button.view.width) / 2,
             self._difficulty_selector.view.y + self._difficulty_selector.view.height + 20)

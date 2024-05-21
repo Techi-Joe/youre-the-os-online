@@ -16,7 +16,7 @@ class AboutDialogView(Drawable):
         self._version_text = FONT_SECONDARY_SMALL.render(
             'Version ' + VERSION, True, Color.WHITE)
         self._copyright_text = FONT_SECONDARY_SMALL.render(
-            '© ' + COPYRIGHT_YEAR + ' Pier-Luc Brault', True, Color.WHITE)
+            '© ' + COPYRIGHT_YEAR + ' Pier-Luc Brault. Online mode by Techi-Joe.', True, Color.WHITE)
         self._license_text = FONT_SECONDARY_XSMALL.render(
             'This game is published under the GNU General Public License Version 3.',
             True,
